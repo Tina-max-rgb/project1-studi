@@ -1,0 +1,126 @@
+aside{
+    float: left;
+    background-color: rgb(165, 163, 42);
+    height:150px;
+    display: block;
+    padding-top: 10px;
+}
+body{
+    margin:0px;
+    width:100%;
+    color: black;
+    font-size: 16px;
+    
+}
+
+.navigation{
+    width: 100%; 
+    height: 50px; 
+    margin: 0;
+    z-index: 100; 
+    position: relative; 
+    background-color: #444444;
+}
+header{
+    height: 130px;
+    background-color:rgb(154, 240, 235);
+    padding-bottom: 80px;
+    padding-inline-end: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+   
+ height: 30px;
+padding: 0px;
+margin: 0px;
+position: relative; 
+
+}
+.menu li {
+    height: 70px;
+    width: 250px; 
+    float: left; 
+    border-radius: 4px;
+    padding-left: 25px;
+    text-align: center; 
+    list-style: none;  
+    font:normal;  
+    padding: 0;
+    border-left: 1px solid  rgb(54, 51, 51);
+    border-right: 1px solid rgb(54, 51, 51);
+    
+    background-color:orange;
+    }
+.menu a{
+        width: 250px;
+        height:70px;							
+    padding: 20px ;  
+   
+    text-decoration: none; 
+    justify-content: left;
+    
+    color:black; 
+    display: block;
+    }
+     .menu li:hover, a:hover {
+    background-color: rgb(255, 174, 0);
+    }
+    .menu li ul{
+    display: none;
+    height: auto;									
+    margin: 0; 
+    padding: 0; 
+    }
+    .menu li:hover ul{
+    display: block;
+    }
+    .menu li ul li{
+    background-color: rgb(173, 158, 158);
+    }
+    .menu li ul li a{
+        border-left: 2px solid white; 
+        border-right: 2px solid white; 
+
+        border-top: 2px solid #c9d4d8; 
+        border-bottom: 1px solid #444444; 
+        }
+        .menu li ul li a:hover{
+        background-color: rgb(243, 196, 196);
+        }
+
+.h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+}
+main{
+    display: flex;
+    text-align: center;
+    width: 800px;
+    height: 700px;
+    justify-content: center;
+    position: center;
+}
+footer{
+    background-color: rgb(221, 211, 211);
+  
+    
+}
+.btn{
+    float: right;
+}
+form{
+    height:90px;
+border-radius: 2px;
+
+}
+.fr{
+    background-color: goldenrod;
+}
+.input{
+    position: center;
+    display: flex;
+}   
+
