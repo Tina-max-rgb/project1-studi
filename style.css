@@ -1,17 +1,26 @@
-@font-face{
+@font-face {
+    font-family: 'stay_classy_sldtregular';
+    src: url('stay_classy_sldt-webfont.woff2') format('woff2'),
+         url('stay_classy_sldt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
+
 aside{
     float: left;
     background-color: rgb(199, 231, 218);
+  
     height:150px;
     display: block;
     padding-top: 10px;
 }
 body{
+    font-family: 'stay_classy_sldtregular';
     margin:0px;
     width:100%;
-    color: black;
+    height: 100%;
+    font-style: italic;
     font-size: 16px;
  
 }
@@ -20,6 +29,7 @@ body{
     width: 100%; 
     height: 50px; 
     margin: 0;
+    font-style: normal;
     z-index: 100; 
     position: relative; 
     background-color: #444444;
@@ -45,6 +55,7 @@ position: relative;
     height: 70px;
     width: 250px; 
     float: left; 
+   
     border-radius: 4px;
     padding-left: 25px;
     text-align: center; 
@@ -93,20 +104,72 @@ position: relative;
         background-color: rgb(243, 196, 196);
         }
 
-.h3{
+h3{
     text-transform: uppercase;
+    width:60%;
+    size: 2em;
     text-align: center;
     padding-top: 30px;
     font-size: 3em;
 }
+h1{
+    width: 50%;
+}
+
+strong {
+   color: rgb(146, 146, 231);
+   animation-direction: normal;
+}
+p{
+    padding-left:40px;
+    width: 50%;
+    
+}
+.pic-main{
+    width: auto;
+    display: flex;
+    box-shadow: 7px 6px 5px 4px gray;
+    background-size: contain;
+    animation: 3s linear 1s infinite running slidein;
+  
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.img-formation{
+    display: flex;
+    box-shadow: 7px 6px 5px 4px rgb(144, 190, 196);
+    border-radius: 5px;
+    margin-left: 10px;
+  
+    width:350px;
+    height: 270px;
+}
 main{
     display: flex;
     text-align: center;
-    width: 800px;
-    height: 700px;
+    width: 100%;
+    height: 100%;
     justify-content: center;
-    position: center;
+   
 }
+@keyframes monanimation {
+    from {
+        color: black;
+    }
+    to{
+        color: rgb(121, 136, 202);
+        transform: scale(1.1);
+
+    }
+}
+p{
+    animation: monanimation 1s;
+    -webkit-animation:monanimation 1s infinite alternate;
+    
+}
+
 footer{
     background-color: rgb(221, 211, 211);
   
@@ -118,23 +181,30 @@ footer{
 }
 form{
     height:90px;
+    width: auto;
     border-radius: 2px;
+    display: block;
 
 }
 .fr{
     background-color: goldenrod;
+    height: 80px;
+    display: block;
 }
 .input{
-    position: center;
+ 
     display: flex;
 }   
 #logo{
     margin-bottom: 15px;
     margin-right: 60px;
     float:right;
-    box-shadow: lightgray;
+  
     display: flex;
     height: 120px;
     width:120px;
 }
+
+
+
 
