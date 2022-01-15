@@ -107,7 +107,7 @@ position: relative;
 h3{
     text-transform: uppercase;
     width:60%;
-    size: 2em;
+  font-size: 1em;
     text-align: center;
     padding-top: 30px;
     font-size: 3em;
@@ -172,28 +172,45 @@ p{
 
 footer{
     background-color: rgb(221, 211, 211);
+    width: 100%;
+    height: 100%;
   
     
+}
+.fab {
+    padding: 30px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 .btn{
     float: right;
     margin-left: 15px;
 }
 form{
-    height:90px;
-    width: auto;
-    border-radius: 2px;
+    height:50%;
+    width: 40%;
+    padding-top: 5px;
+    border-radius: 5px;
     display: block;
 
 }
+button{
+    width: 100%;
+    margin-top: 20px;
+}
 .fr{
     background-color: goldenrod;
-    height: 80px;
+    width: 40%;
+    height: 50%;
+    
     display: block;
 }
 .input{
- 
+  
     display: flex;
+    
 }   
 #logo{
     margin-bottom: 15px;
