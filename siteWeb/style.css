@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'stay_classy_sldtregular';
+    src: url('stay_classy_sldt-webfont.woff2') format('woff2'),
+         url('stay_classy_sldt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+aside{
+    float: left;
+    background-color: rgb(199, 231, 218);
+    width: 100%;
+    height:100%;
+    display: block;
+    padding-top: 10px;
+}
+body{
+    font-family: 'stay_classy_sldtregular';
+    margin:0px;
+    width:100%;
+    height: 100%;
+    font-style: italic;
+    font-size: 16px;
+ 
+}
+
+.navigation{
+    width: 100%; 
+    height: 50px; 
+    margin: 0;
+    font-style: normal;
+    z-index: 100; 
+    position: relative; 
+    background-color: #444444;
+}
+header{
+    height: 130px;
+    background-color:rgb(154, 240, 235);
+    padding-bottom: 80px;
+    padding-inline-end: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+
+ height: 30px;
+padding: 0px;
+margin: 0px;
+position: relative; 
+
+}
+.menu li {
+  
+    height: 70px;
+    width: 250px; 
+    float: left; 
+   
+    border-radius: 4px;
+    padding-left: 25px;
+    text-align: center; 
+    list-style: none;  
+    font:normal;  
+    padding: 0;
+    border-left: 1px solid  rgb(54, 51, 51);
+    border-right: 1px solid rgb(54, 51, 51);
+    
+    background-color:orange;
+    }
+.menu a{
+        width: 250px;
+        height:70px;							
+    padding: 20px ;  
+   
+    text-decoration: none; 
+    justify-content: left;
+    
+    color:black; 
+    display: block;
+    }
+     .menu li:hover, a:hover {
+    background-color: rgb(255, 174, 0);
+    }
+    .menu li ul{
+    display: none;
+    height: auto;									
+    margin: 0; 
+    padding: 0; 
+    }
+    .menu li:hover ul{
+    display: block;
+    }
+    .menu li ul li{
+    background-color: rgb(173, 158, 158);
+    }
+    .menu li ul li a{
+        border-left: 2px solid white; 
+        border-right: 2px solid white; 
+
+        border-top: 2px solid #c9d4d8; 
+        border-bottom: 1px solid #444444; 
+        }
+        .menu li ul li a:hover{
+        background-color: rgb(243, 196, 196);
+        }
+
+h3{
+    text-transform: uppercase;
+    width:60%;
+  font-size: 1em;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+}
+h1{
+    width: 50%;
+}
+
+strong {
+   color: rgb(146, 146, 231);
+   animation-direction: normal;
+}
+p{
+    padding-left:40px;
+    width: 50%;
+    
+}
+.pic-main{
+    width: auto;
+    display: flex;
+    box-shadow: 7px 6px 5px 4px gray;
+    background-size: contain;
+    animation: 3s linear 1s infinite running slidein;
+  
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.img-formation{
+    display: flex;
+    box-shadow: 7px 6px 5px 4px rgb(144, 190, 196);
+    border-radius: 5px;
+    margin-left: 10px;
+  
+    width:350px;
+    height: 270px;
+}
+main{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+   
+}
+@keyframes monanimation {
+    from {
+        color: black;
+    }
+    to{
+        color: rgb(121, 136, 202);
+        transform: scale(1.1);
+
+    }
+}
+p{
+    animation: monanimation 1s;
+    -webkit-animation:monanimation 1s infinite alternate;
+    
+}
+
+footer{
+    background-color: rgb(221, 211, 211);
+    width: 100%;
+    height: 100%;
+  
+    
+}
+.fab {
+    padding: 30px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.btn{
+    float: right;
+    margin-left: 15px;
+}
+form{
+    height:50%;
+    width: 40%;
+    padding-top: 5px;
+    border-radius: 5px;
+    display: block;
+
+}
+button{
+    width: 100%;
+}
+.fr{
+    background-color: goldenrod;
+    width: 40%;
+    height: 50%;
+    
+    display: block;
+}
+.input{
+  
+    display: flex;
+    
+}   
+#logo{
+    margin-bottom: 15px;
+    margin-right: 60px;
+    float:right;
+  
+    display: flex;
+    height: 120px;
+    width:120px;
+}
+
+
+
+
