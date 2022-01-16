@@ -10,8 +10,8 @@
 aside{
     float: left;
     background-color: rgb(199, 231, 218);
-  
-    height:150px;
+    width: 100%;
+    height:100%;
     display: block;
     padding-top: 10px;
 }
@@ -198,7 +198,6 @@ form{
 }
 button{
     width: 100%;
-    margin-top: 20px;
 }
 .fr{
     background-color: goldenrod;
