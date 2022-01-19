@@ -27,7 +27,7 @@ body{
 
 .navigation{
     width: 100%; 
-    height: 50px; 
+    height: 100%; 
     margin: 0;
     font-style: normal;
     z-index: 100; 
@@ -35,7 +35,7 @@ body{
     background-color: #444444;
 }
 header{
-    height: 130px;
+    height: 100%;
     background-color:rgb(154, 240, 235);
     padding-bottom: 80px;
     padding-inline-end: 20px;
@@ -43,21 +43,26 @@ header{
     justify-content: center;
 }
 .menu{
-
- height: 30px;
+width: 67%;
+display:flex;
+ height: 30%;
 padding: 0px;
+padding-right: 1px;
+padding-left: 5px;
+
 margin: 0px;
 position: relative; 
 
 }
 .menu li {
   
-    height: 70px;
-    width: 250px; 
+    height: 50%;
+    
+  width: 100%;
     float: left; 
-   
+  
     border-radius: 4px;
-    padding-left: 25px;
+  
     text-align: center; 
     list-style: none;  
     font:normal;  
@@ -68,8 +73,9 @@ position: relative;
     background-color:orange;
     }
 .menu a{
-        width: 250px;
-        height:70px;							
+        width: 100%;
+        
+        height: 50%;							
     padding: 20px ;  
    
     text-decoration: none; 
@@ -82,6 +88,8 @@ position: relative;
     background-color: rgb(255, 174, 0);
     }
     .menu li ul{
+        width: 80%;
+        height: 50%;
     display: none;
     height: auto;									
     margin: 0; 
@@ -94,6 +102,7 @@ position: relative;
     background-color: rgb(173, 158, 158);
     }
     .menu li ul li a{
+        width: 100%;
         border-left: 2px solid white; 
         border-right: 2px solid white; 
 
@@ -107,15 +116,18 @@ position: relative;
 h3{
     text-transform: uppercase;
     width:60%;
-  font-size: 1em;
+  font-size: 0.5em;
     text-align: center;
     padding-top: 30px;
-    font-size: 3em;
+   
 }
 h1{
     width: 50%;
 }
-
+h4{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
 strong {
    color: rgb(146, 146, 231);
    animation-direction: normal;
@@ -130,13 +142,17 @@ p{
     display: flex;
     box-shadow: 7px 6px 5px 4px gray;
     background-size: contain;
-    animation: 3s linear 1s infinite running slidein;
+    
   
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 10px;
     
 }
+#txt{
+    background-color: rgb(247, 248, 237);
+}
+
 .img-formation{
     display: flex;
     box-shadow: 7px 6px 5px 4px rgb(144, 190, 196);
@@ -171,12 +187,14 @@ p{
 }
 
 footer{
-    background-color: rgb(221, 211, 211);
+    background-color: rgb(196, 189, 189);
     width: 100%;
     height: 100%;
   
     
 }
+
+
 .fab {
     padding: 30px;
     background: white;
@@ -186,34 +204,43 @@ footer{
 }
 .btn{
     float: right;
-    margin-left: 15px;
+    width: 20%;
+    margin-right: 0px;
+    
 }
 form{
-    height:50%;
-    width: 40%;
-    padding-top: 5px;
+    height:100%;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 30px;
     border-radius: 5px;
-    display: block;
+    display: inline-grid;
 
 }
+
 button{
-    width: 100%;
+    width: 30%;
+    margin-bottom: 50px;
+}
+#textarea{
+margin-bottom: 30px;
 }
 .fr{
     background-color: goldenrod;
-    width: 40%;
-    height: 50%;
-    
-    display: block;
+    width: 100%;
+    height: 100%;
+  
+     
 }
 .input{
-  
+
     display: flex;
     
-}   
+} 
+ 
 #logo{
     margin-bottom: 15px;
-    margin-right: 60px;
+    margin-right: 20px;
     float:right;
   
     display: flex;
@@ -221,6 +248,43 @@ button{
     width:120px;
 }
 
+@media screen and (max-width: 740px) {
 
-
-
+header{
+    background-color: rgb(255, 255, 255);
+}
+.navigation{
+    width:100%;
+}
+.menu{
+    width:100%;
+    height: 90%;
+    display: block;
+}
+.menu li{
+    width:100% ;
+}
+.pic-main{
+width :50%;
+}
+h4{
+   font-size: 1em; 
+   margin-left: 0px;
+}
+form{
+    width: 80%;
+    border-radius: 5px;
+    display: inline-grid;
+}
+.btn{
+    width: 70%;
+}
+}
+@media screen and (min-width: 741px) and (max-width:1200px){
+header{
+    background-color: chartreuse;
+}
+.btn{
+    width:50% ;
+}
+}
