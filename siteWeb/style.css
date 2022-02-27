@@ -62,7 +62,7 @@ position: relative;
     float: left; 
   
     border-radius: 4px;
-  
+    margin-top: 2%;
     text-align: center; 
     list-style: none;  
     font:normal;  
@@ -106,7 +106,7 @@ position: relative;
         width: 100%;
         border-left: 2px solid white; 
         border-right: 2px solid white; 
-          
+  
         border-top: 2px solid #c9d4d8; 
         border-bottom: 1px solid #444444; 
         }
@@ -249,10 +249,11 @@ margin-bottom: 30px;
 } 
  
 #logo{
+    margin-top:5px;
     margin-bottom: 15px;
     margin-right: 20px;
     float:right;
-  
+    border-radius:;
     display: flex;
     height: 120px;
     width:120px;
